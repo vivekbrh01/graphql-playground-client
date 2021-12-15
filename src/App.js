@@ -14,7 +14,9 @@ function App() {
 	return (
 		<ApolloProvider client={client}>
 			<div id="main">
-				<Box className="title" bgcolor="text.secondary">Playground</Box>
+				<Box className="title" bgcolor="text.secondary" m={2} p={1} w={3}>
+					Playground
+				</Box>
 				<BookList />
 			</div>
 		</ApolloProvider>

@@ -17,8 +17,18 @@ code {
 	width: 50vw;
 	margin: 0 auto;
 }
+
+#book-list {
+	height: 30vh;
+}
+
 .title {
 	text-align: center;
 	font-size: 32px;
 	color: aliceblue;
+}
+
+.show-books {
+	background-color: ivory;
+	height: 30vh;
 }
