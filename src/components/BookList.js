@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { graphql } from "react-apollo";
 import { getBooksQuery } from "../queries/queries";
 import BookDetails from "./BookDetails";
+import Divider from "@material-ui/core/Divider";
 
 class BookList extends Component {
 	constructor(props) {
@@ -37,6 +38,7 @@ class BookList extends Component {
 				<ul id="book-list">
 					<li>{this.displayBooks()}</li>
 				</ul>
+				<Divider variant="middle" />
 				<BookDetails bookId={this.state.selected}></BookDetails>
 			</div>
 		);
