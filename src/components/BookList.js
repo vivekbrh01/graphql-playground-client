@@ -40,7 +40,7 @@ class BookList extends Component {
 					<li>{this.displayBooks()}</li>
 				</ul>
 				<Divider variant="middle" />
-				<Box className="show-books" m={1}>
+				<Box className="show-books" m={1} p={1}>
 					<BookDetails bookId={this.state.selected}></BookDetails>
 				</Box>
 			</div>
